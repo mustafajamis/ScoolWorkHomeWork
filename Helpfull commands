@@ -1,0 +1,20 @@
+**********************************************Usefull commands***********************************************
+
+*To install application
+to give the permission
+└─$ sudo chmod +x google-chrome-stable_current_amd64.deb\
+to install 
+└─$ sudo dpkg -i google-chrome-stable_current_amd64.deb  
+
+*To Active Bluetooth
+└─$ sudo systemctl start bluetooth.service               
+ 
+ to split the vim window
+ vsplit new.c  or vsp new.c
+ to open terminal inside the vim you can use type term or terminal
+ to switch between windows use Ctrl w
+ 
+ update your chrome
+ sudo apt install --only-upgrade google-chrome-stable
+
+
