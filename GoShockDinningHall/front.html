@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Dining Hall</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+    <h1>Welcome to the Healthy GoShock Dinning</h1>
+    
+    <form id="nutritionForm">
+        <label for="calories">Daily Caloric Intake:</label>
+        <input type="number" id="calories" name="calories" required><br><br>
+        
+        <label for="protein">Daily Protein Intake (g):</label>
+        <input type="number" id="protein" name="protein" required><br><br>
+        
+        <label for="carbs">Daily Carbohydrate Intake (g):</label>
+        <input type="number" id="carbs" name="carbs" required><br><br>
+        
+        <label for="fat">Daily Fat Intake (g):</label>
+        <input type="number" id="fat" name="fat" required><br><br>
+        
+        <label for="goal">Health Goal:</label>
+        <select id="goal" name="goal">
+            <option value="weightLoss">Weight Loss</option>
+            <option value="maintain">Maintain</option>
+            <option value="muscleGain">Muscle Gain</option>
+        </select><br><br>
+        
+        <input type="submit" value="Get Recommendations">
+    </form>
+
+    <div id="recommendations">
+        <!-- Recommendations will be displayed here -->
+    </div>
+
+    <script src="front.js"></script>
+</body>
+</html>
